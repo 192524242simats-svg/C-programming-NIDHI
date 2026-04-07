@@ -1,0 +1,8 @@
+#include <stdio.h>
+void main()
+{
+    char lower,upper;
+    scanf("%c",&upper);
+    lower=upper+32;
+    printf("%c",lower);
+}
