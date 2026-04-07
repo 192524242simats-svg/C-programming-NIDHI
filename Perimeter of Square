@@ -1,0 +1,8 @@
+#include <stdio.h>
+void main()
+{
+   float a,perimeter;
+   scanf("%f",&a);
+   perimeter=4*a;
+   printf("%f",perimeter);
+}
