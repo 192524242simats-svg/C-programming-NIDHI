@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main()
+{
+    int d,months,days;
+    scanf("%d",&d);
+    months=d/30;
+    days=d%30;
+    printf("%d months and %d remaining days",months,days);
+}
