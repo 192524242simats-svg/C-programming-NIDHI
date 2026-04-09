@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void main() {
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a!=b)
+    {
+        printf("The Given two numbers are different");
+    }
+    else
+    {
+        printf("The Given two numbers are same");
+    }
+   
+}
