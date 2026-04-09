@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main() {
+    int a;
+    scanf("%d",&a);
+    if(a>=1&&a<=100)
+    {
+        printf("The Given Number %d is in range");
+    }
+    else{
+        printf("The Given number is not in the range");
+    }
+    
+}
